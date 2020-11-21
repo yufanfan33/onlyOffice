@@ -66,6 +66,7 @@ public class IndexServlet extends HttpServlet {
         DocumentManager.Init(request, response);
         response.setCharacterEncoding("UTF-8");
         PrintWriter writer = response.getWriter();
+        //
 
         switch (action.toLowerCase())
         {
